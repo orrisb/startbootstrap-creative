@@ -142,7 +142,7 @@ position: relative;
 text-shadow: 0 -.05em .05em rgba(0, 0, 0, .5);
 font-size: 86%;
 line-height: 1.5;
-    
+  */  
 cimg {
     clip-path: polygon(50% 0, 100% 50%,
 		           50% 100%, 0 50%);
