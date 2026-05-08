@@ -79,6 +79,55 @@
   --bs-highlight-bg: #fff3cd;
 }
 
+cimg {
+    clip-path: polygon(50% 0, 100% 50%,
+		           50% 100%, 0 50%);
+		           transition: 1s clip-path;
+}
+
+img:hover{
+        clip-path: polygon(0% 0, 100% 0%,
+	100% 100%, 0 100%);		
+}
+
+body {
+display: flex;
+flex-flow: column;
+min-height: 100vh;
+text-align:center; 
+margin: 0.25em;
+box-shadow: 0 .05em .25em rgba(0, 0, 0, .5);
+position: relative;
+  padding: 2em 1em 1em;
+  color: white;
+  font-family: 'IM Fell English', 'Palatino Linotype', Palatino, serif;
+  hyphens: auto;
+  line-height: 1.6;
+text-shadow: 0 -.05em .05em rgba(0, 0, 0, .5);
+font-size: 86%;
+line-height: 1.5;
+border-width: 10px;
+border-left-width: 0;
+clip-path:polygon(20px 0, calc(100% - 20px) 0, 100% 20px, 
+			  100% calc(100% - 20px), calc(100% - 20px) 100%,
+			  20px 100%, 0 calc(100% - 20px), 0 20px);
+}
+
+#content { flex: 1;
+    clip-path:polygon(20px 0, calc(100% - 20px) 0, 100% 20px, 
+			  100% calc(100% - 20px), calc(100% - 20px) 100%,
+			  20px 100%, 0 calc(100% - 20px), 0 20px);
+}
+
+#container { 
+	margin:5px auto 0 auto; 
+	    padding: .3em .8em;
+        border: 1px solid rgba(0, 0, 0, .1);
+        background: #58a linear-gradient(#FF9966, #58a);
+        border-radius: .2em;
+        box-shadow: 0 .05em .25em rgba(0, 0, 0, .5);
+
+
 *,
 *::before,
 *::after {
