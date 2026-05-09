@@ -125,6 +125,213 @@ img:hover{
         clip-path: polygon(0% 0, 100% 0%,
 	100% 100%, 0 100%);		
 }
+body {
+    font-family: "Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+        color: #3E3E3E;
+        background: #94C5EB url(images/background-grad.png) repeat-x;
+        font-size: 12px;
+}
+
+#navigation {
+  position: fixed;
+  z-index: 9;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  padding: 10px 0px;
+}
+
+#navigation-inside {
+  width: 600px;
+  margin: 0 auto;
+}
+
+#navigation-inside ul {
+  width: 100%;
+  list-style: none;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+#navigation-inside li {
+  width: 20%;
+  float: left;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+a:active, a:hover {
+  color: #1998E2;
+}
+.active {
+  color: #1998E2;  
+  font-weight: bold;
+}
+/* Next */
+#header {
+        padding: 1em;
+        border: 1em solid transparent;
+        background: linear-gradient(white, white) padding-box, url(css/images/stone-art.jpg) border-box 0 / cover; 
+  /* width: 100%;
+  height: 220px;
+  overflow: hidden; */
+}
+
+#header img {
+    /* width: 100%;
+    height: auto; */ 
+}
+
+#profile {
+  width: 100px;
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  margin-left: -50px;
+  top: 0px;
+}
+
+#profile-image {
+        /* transition: .5s filter;
+        filter: sepia() saturate(1) hue-rotate(295deg); 
+ width: 100px;*/
+height: 100%; 
+border-radius: 50%;
+background: white;
+overflow: hidden;
+}
+
+#profile-image img {
+        transition: .5s filter;
+        filter: hsl(335, 100%, 50%);
+  /* width: 100%;
+  height: auto; */
+}
+
+img {
+        transition: .5s filter;
+        filter: hsl(335, 100%, 50%);
+        filter: sepia() saturate(1) hue-rotate(295deg);
+}
+img:hover,
+img:focus {
+        filter: none;
+}
+
+#profile h2 {
+color: white;
+text-align: center;
+font-size: 14px;
+}
+
+#introduction {
+  width: 600px;
+  padding: 20px;
+  background: white;
+  border: 1px solid #ccc;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+h1 {
+  color: #1998E2;
+  font-size: 22px;
+  text-align: center;
+}
+
+p {
+  color: #777;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+
+.section {
+    width: 600px;
+    padding: 20px;
+    background: white;
+    border: 1px solid #ccc;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.example {
+  padding: 10px;
+  background: #fcfcfc;  
+  border-radius: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+.code-show-button {
+  display: block;
+  margin: 20px auto 0px;
+  padding: 10px 20px;
+  border-radius: 3px;
+  border: none;
+  background: #1998E2;
+  color: white;
+  font-size: 14px;
+}
+
+.code-show-button:hover {
+  background: #198acc;
+  cursor: pointer;
+}
+
+
+#quick-menu {
+  position: fixed;
+  left: 20px;
+  top: 60px;
+  width: 200px;
+  height: auto;
+  background: white;
+  padding: 20px 10px;
+  z-index: 2;
+}
+
+#quick-menu h3 {
+margin-top: 0px;
+text-align: center;
+color: #333;
+font-size: 18px;
+}
+
+.example-code {
+  background: #333;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+form, input[type=text], input[type=submit] {
+  width: 300px;
+  margin: 5px auto;
+  padding: 10px;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+.run-javascript {
+  margin: 0 auto;
+  width: 200px;
+  display: block;
+}
 /*
 body {
 display: flex;
