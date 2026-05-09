@@ -93,7 +93,7 @@ html {
   background: linear-gradient(rgba(0, 0, 0, 0.6), transparent) top left repeat-x, url("./CSS/images/tweed.jpg") #2e241f;
   background-size: 100% 300px, auto; }
 
-/* Set styles to equalise browser rendition*
+/* Set styles to equalise browser rendition */
 html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li {  
 	padding: 0; 
 	margin: 0; 
