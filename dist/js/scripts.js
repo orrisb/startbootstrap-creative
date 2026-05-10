@@ -32,6 +32,7 @@ $(function(){
   });
 
 });
+// 02 document ready 
 
 window.addEventListener('DOMContentLoaded', event => {
 
