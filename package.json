@@ -12,7 +12,6 @@
         "start": "npm run build && node scripts/start.js",
         "start:debug": "npm run build && node scripts/start-debug.js"
     },
-    "description": "Creative is a stylish one page HTML theme built with Bootstrap.",
     "keywords": [
         "css",
         "sass",
